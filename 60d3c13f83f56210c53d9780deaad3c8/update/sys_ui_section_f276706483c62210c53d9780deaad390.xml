@@ -4,13 +4,125 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-06-07 00:10:34</sys_created_on>
-            <sys_id>3a76706483c62210c53d9780deaad393</sys_id>
+            <sys_created_on>2025-06-07 17:51:19</sys_created_on>
+            <sys_id>d1492434834a6210c53d9780deaad340</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1540210_lva_loaner_vehicle_catalog" sys_domain="global" view="Default view">f276706483c62210c53d9780deaad390</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-06-07 00:10:34</sys_updated_on>
+            <sys_updated_on>2025-06-07 17:51:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-07 17:51:19</sys_created_on>
+            <sys_id>d9492434834a6210c53d9780deaad340</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1540210_lva_loaner_vehicle_catalog" sys_domain="global" view="Default view">f276706483c62210c53d9780deaad390</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-07 17:51:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-07 17:51:19</sys_created_on>
+            <sys_id>d1492434834a6210c53d9780deaad341</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1540210_lva_loaner_vehicle_catalog" sys_domain="global" view="Default view">f276706483c62210c53d9780deaad390</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-07 17:51:19</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vehicle_make</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-07 17:51:19</sys_created_on>
+            <sys_id>d9492434834a6210c53d9780deaad341</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1540210_lva_loaner_vehicle_catalog" sys_domain="global" view="Default view">f276706483c62210c53d9780deaad390</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-07 17:51:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vehicle_model</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-07 17:51:19</sys_created_on>
+            <sys_id>d1492434834a6210c53d9780deaad342</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1540210_lva_loaner_vehicle_catalog" sys_domain="global" view="Default view">f276706483c62210c53d9780deaad390</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-07 17:51:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vehicle_year</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-07 17:51:19</sys_created_on>
+            <sys_id>d9492434834a6210c53d9780deaad342</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1540210_lva_loaner_vehicle_catalog" sys_domain="global" view="Default view">f276706483c62210c53d9780deaad390</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-07 17:51:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-07 17:51:19</sys_created_on>
+            <sys_id>d1492434834a6210c53d9780deaad343</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1540210_lva_loaner_vehicle_catalog" sys_domain="global" view="Default view">f276706483c62210c53d9780deaad390</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-07 17:51:19</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vehicle_description</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-07 17:51:19</sys_created_on>
+            <sys_id>d9492434834a6210c53d9780deaad343</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1540210_lva_loaner_vehicle_catalog" sys_domain="global" view="Default view">f276706483c62210c53d9780deaad390</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-07 17:51:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>image</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-07 17:51:19</sys_created_on>
+            <sys_id>d1492434834a6210c53d9780deaad344</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1540210_lva_loaner_vehicle_catalog" sys_domain="global" view="Default view">f276706483c62210c53d9780deaad390</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-07 17:51:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
