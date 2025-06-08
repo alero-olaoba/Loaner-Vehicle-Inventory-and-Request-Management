@@ -42,7 +42,7 @@
         <read_roles/>
         <reference display_value="" name="x_1540210_lva_loaner_vehicle_catalog">x_1540210_lva_loaner_vehicle_catalog</reference>
         <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
+        <reference_floats>true</reference_floats>
         <reference_key/>
         <reference_qual/>
         <reference_qual_condition/>
@@ -59,7 +59,7 @@
         <sys_scope display_value="Loaner Vehicle Request and Inventory">60d3c13f83f56210c53d9780deaad3c8</sys_scope>
         <sys_update_name>sys_dictionary_x_1540210_lva_vehicle_tracker_vehicle</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-08 03:49:25</sys_updated_on>
+        <sys_updated_on>2025-06-08 16:50:11</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
