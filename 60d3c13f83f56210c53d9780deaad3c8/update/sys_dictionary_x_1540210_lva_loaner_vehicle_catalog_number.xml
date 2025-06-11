@@ -59,7 +59,7 @@
         <sys_scope display_value="Loaner Vehicle Request and Inventory">60d3c13f83f56210c53d9780deaad3c8</sys_scope>
         <sys_update_name>sys_dictionary_x_1540210_lva_loaner_vehicle_catalog_number</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-05 02:21:32</sys_updated_on>
+        <sys_updated_on>2025-06-11 23:49:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
