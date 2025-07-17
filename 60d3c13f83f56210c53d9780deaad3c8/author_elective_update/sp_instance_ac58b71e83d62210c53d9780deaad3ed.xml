@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>empty</glyph>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">528777da83d62210c53d9780deaad3d3</sp_column>
+        <sp_widget display_value="SC Catalog Item">3c29786e87133200e0ef0cf888cb0bdf</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 11:02:32</sys_created_on>
+        <sys_id>ac58b71e83d62210c53d9780deaad3ed</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Reschedule your Vehicle Return</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1540210_lva">60d3c13f83f56210c53d9780deaad3c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">60d3c13f83f56210c53d9780deaad3c8</sys_scope>
+        <sys_update_name>sp_instance_ac58b71e83d62210c53d9780deaad3ed</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 11:13:19</sys_updated_on>
+        <title>Reschedule your Vehicle Return</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=ac58b71e83d62210c53d9780deaad3ed"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request and Inventory">60d3c13f83f56210c53d9780deaad3c8</application>
+        <file_path/>
+        <instance_id>c4236bc91b02821077c7cb7b234bcba6</instance_id>
+        <instance_name>dev264481</instance_name>
+        <name>sp_instance_ac58b71e83d62210c53d9780deaad3ed</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph>empty</glyph><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="2">528777da83d62210c53d9780deaad3d3</sp_column><sp_widget display_value="SC Catalog Item">3c29786e87133200e0ef0cf888cb0bdf</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-25 11:02:32</sys_created_on><sys_id>ac58b71e83d62210c53d9780deaad3ed</sys_id><sys_mod_count>6</sys_mod_count><sys_name>Reschedule your Vehicle Return</sys_name><sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1540210_lva">60d3c13f83f56210c53d9780deaad3c8</sys_package><sys_policy/><sys_scope display_value="Loaner Vehicle Request and Inventory">60d3c13f83f56210c53d9780deaad3c8</sys_scope><sys_update_name>sp_instance_ac58b71e83d62210c53d9780deaad3ed</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-25 11:13:19</sys_updated_on><title>Reschedule your Vehicle Return</title><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=ac58b71e83d62210c53d9780deaad3ed"/></record_update>]]></payload>
+        <payload_hash>2001685392</payload_hash>
+        <record_name>Reschedule your Vehicle Return</record_name>
+        <reverted_from/>
+        <source>fb94fb6983122210c53d9780deaad399</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 11:13:19</sys_created_on>
+        <sys_id>e2ca3bde83d62210c53d9780deaad30a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197a6cad38f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 11:13:19</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>aaca3bdefad622109960f0e72a868a09</update_guid>
+        <update_guid_history>aaca3bdefad622109960f0e72a868a09:2001685392,a2d9779e6ad622101d22493d811bbc3f:762636689,aad9b31eb8d622105586bda4afa1d4af:2001685392,01c9f39e87d62210381dbae8220d1b8c:762636689,85a9771e91d6221045b541b1b4e81825:2001685392,85787b1e98d62210f954945f712acf37:-1502658861,a458b71e20d6221028d06cd74c57a1ef:-379051090</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Reschedule your Vehicle Return">844e7bd2831a2210c53d9780deaad33b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 11:28:26</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>1f1d999ff94c4290949de4777651ef44</sys_id>
+        <sys_metadata>ac58b71e83d62210c53d9780deaad3ed</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reschedule your Vehicle Return</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1540210_lva">60d3c13f83f56210c53d9780deaad3c8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">60d3c13f83f56210c53d9780deaad3c8</sys_scope>
+        <sys_scope_delete display_value="">920bb3565fdf4114a3d670336b48de90</sys_scope_delete>
+        <sys_update_name>sp_instance_ac58b71e83d62210c53d9780deaad3ed</sys_update_name>
+        <sys_update_version display_value="sp_instance_ac58b71e83d62210c53d9780deaad3ed">e2ca3bde83d62210c53d9780deaad30a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 11:28:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

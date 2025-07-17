@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="ignore_delete_children=true" audit="true" db_object_id="02eed04183712210c53d9780deaad352" extends="rm_feature" label="Story" max_length="40" name="rm_story" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Technical Solution" max_length="4000" name="x_1540210_lva_technical_solution" type="string"/>
+        <element label="Update Set" max_length="32" name="x_1540210_lva_update_set" reference="sys_update_set" type="reference"/>
+    </element>
+</database>
