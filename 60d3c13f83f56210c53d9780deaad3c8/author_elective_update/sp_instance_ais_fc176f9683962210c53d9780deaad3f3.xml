@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais">
+    <sp_instance_ais action="DELETE">
+        <active>true</active>
+        <ai_search_source_filter/>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <disable_all_suggestions>false</disable_all_suggestions>
+        <glyph>clock-o</glyph>
+        <id>reschedule_return</id>
+        <order>1</order>
+        <placeholder/>
+        <roles/>
+        <search_application/>
+        <search_results_configuration/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">66c2af5283962210c53d9780deaad3b0</sp_column>
+        <sp_widget display_value="Add Widget">32366e885b1112000d7ec7ad31f91a51</sp_widget>
+        <spell_check_font_size>xl</spell_check_font_size>
+        <sys_class_name>sp_instance_ais</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 09:47:11</sys_created_on>
+        <sys_id>fc176f9683962210c53d9780deaad3f3</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Reschedule your Loaner Return</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1540210_lva">60d3c13f83f56210c53d9780deaad3c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">60d3c13f83f56210c53d9780deaad3c8</sys_scope>
+        <sys_update_name>sp_instance_ais_fc176f9683962210c53d9780deaad3f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 10:29:42</sys_updated_on>
+        <title>Reschedule your Loaner Return</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_ais>
+    <sys_translated_text action="DELETE" query="documentkey=fc176f9683962210c53d9780deaad3f3"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request and Inventory">60d3c13f83f56210c53d9780deaad3c8</application>
+        <file_path/>
+        <instance_id>c4236bc91b02821077c7cb7b234bcba6</instance_id>
+        <instance_name>dev264481</instance_name>
+        <name>sp_instance_ais_fc176f9683962210c53d9780deaad3f3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais"><sp_instance_ais action="INSERT_OR_UPDATE"><active>true</active><ai_search_source_filter/><class_name/><color>default</color><css/><disable_all_suggestions>false</disable_all_suggestions><glyph>clock-o</glyph><id>reschedule_return</id><order>1</order><placeholder/><roles/><search_application/><search_results_configuration/><short_description/><size>md</size><sp_column display_value="2">66c2af5283962210c53d9780deaad3b0</sp_column><sp_widget display_value="Add Widget">32366e885b1112000d7ec7ad31f91a51</sp_widget><spell_check_font_size>xl</spell_check_font_size><sys_class_name>sp_instance_ais</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-25 09:47:11</sys_created_on><sys_id>fc176f9683962210c53d9780deaad3f3</sys_id><sys_mod_count>6</sys_mod_count><sys_name>Reschedule your Loaner Return</sys_name><sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1540210_lva">60d3c13f83f56210c53d9780deaad3c8</sys_package><sys_policy/><sys_scope display_value="Loaner Vehicle Request and Inventory">60d3c13f83f56210c53d9780deaad3c8</sys_scope><sys_update_name>sp_instance_ais_fc176f9683962210c53d9780deaad3f3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-25 10:29:42</sys_updated_on><title>Reschedule your Loaner Return</title><url/><widget_parameters/></sp_instance_ais><sys_translated_text action="delete_multiple" query="documentkey=fc176f9683962210c53d9780deaad3f3"/></record_update>]]></payload>
+        <payload_hash>1359087477</payload_hash>
+        <record_name>Reschedule your Loaner Return</record_name>
+        <reverted_from/>
+        <source>fb94fb6983122210c53d9780deaad399</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 10:29:42</sys_created_on>
+        <sys_id>a7c0bf9283d62210c53d9780deaad34c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197a6a2e35b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 10:29:42</sys_updated_on>
+        <type>Instance with Search</type>
+        <update_guid>6fc0bf9247d6221003478db01c977b4b</update_guid>
+        <update_guid_history>6fc0bf9247d6221003478db01c977b4b:1359087477,c2af271206d62210e9afcc390a8d49a8:-789393674,673f6bde9b9622105c226ce1169b0f33:-1542661825,4088ab1a1e962210d6e5d75c67319625:342062973,b508e31a8b96221047e2a3504a0133d2:-425877182,aa1723d6ef962210bb3f22ba4357dd71:1344429313,b8176f9674962210e7fdbe4fdd2fb3f5:-425877182</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Reschedule your Loaner Return">7a6b3712831a2210c53d9780deaad3a0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 11:16:04</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_ais">sp_instance_ais</sys_db_object>
+        <sys_id>1cbbaa8735664fbda4c7dd770562b121</sys_id>
+        <sys_metadata>fc176f9683962210c53d9780deaad3f3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reschedule your Loaner Return</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1540210_lva">60d3c13f83f56210c53d9780deaad3c8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">60d3c13f83f56210c53d9780deaad3c8</sys_scope>
+        <sys_scope_delete display_value="">920bb3565fdf4114a3d670336b48de90</sys_scope_delete>
+        <sys_update_name>sp_instance_ais_fc176f9683962210c53d9780deaad3f3</sys_update_name>
+        <sys_update_version display_value="sp_instance_ais_fc176f9683962210c53d9780deaad3f3">a7c0bf9283d62210c53d9780deaad34c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 11:16:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

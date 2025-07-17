@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Loaner Vehicle Return Reschedule">96e1717983026210c53d9780deaad350</sc_cat_item>
+        <sc_cat_item display_value="Reschedule Vehicle Return">96e1717983026210c53d9780deaad350</sc_cat_item>
         <sc_category display_value="Loaner Vehicle">6981107d834a2210c53d9780deaad323</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>admin</sys_created_by>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="DELETE">
+        <category>sc</category>
+        <css>.carousel-row .col-md-12 {&#13;
+  padding-left: 0;&#13;
+  padding-right: 0;&#13;
+}&#13;
+&#13;
+.pull-in {&#13;
+  margin-left: 0;&#13;
+  margin-right: 0;&#13;
+}&#13;
+&#13;
+.ts-float-right {&#13;
+  float: right;&#13;
+}</css>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <human_readable_url_structure/>
+        <id>vehiclehub_cat_home</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>true</public>
+        <roles/>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 13:36:50</sys_created_on>
+        <sys_id>30ab94e6839a2210c53d9780deaad3b0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>vehiclehub_cat_home</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1540210_lva">60d3c13f83f56210c53d9780deaad3c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">60d3c13f83f56210c53d9780deaad3c8</sys_scope>
+        <sys_update_name>sp_page_30ab94e6839a2210c53d9780deaad3b0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 13:37:47</sys_updated_on>
+        <title>Vehicle Hub Catalog Home</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="DELETE" query="documentkey=30ab94e6839a2210c53d9780deaad3b0"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request and Inventory">60d3c13f83f56210c53d9780deaad3c8</application>
+        <file_path/>
+        <instance_id>c4236bc91b02821077c7cb7b234bcba6</instance_id>
+        <instance_name>dev264481</instance_name>
+        <name>sp_page_30ab94e6839a2210c53d9780deaad3b0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>sc</category><css>.carousel-row .col-md-12 {&#13;
+  padding-left: 0;&#13;
+  padding-right: 0;&#13;
+}&#13;
+&#13;
+.pull-in {&#13;
+  margin-left: 0;&#13;
+  margin-right: 0;&#13;
+}&#13;
+&#13;
+.ts-float-right {&#13;
+  float: right;&#13;
+}</css><draft>false</draft><dynamic_title_structure/><human_readable_url_structure/><id>vehiclehub_cat_home</id><internal>false</internal><omit_watcher>false</omit_watcher><public>true</public><roles/><seo_script/><short_description/><sys_class_name>sp_page</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-25 13:36:50</sys_created_on><sys_id>30ab94e6839a2210c53d9780deaad3b0</sys_id><sys_mod_count>1</sys_mod_count><sys_name>vehiclehub_cat_home</sys_name><sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1540210_lva">60d3c13f83f56210c53d9780deaad3c8</sys_package><sys_policy/><sys_scope display_value="Loaner Vehicle Request and Inventory">60d3c13f83f56210c53d9780deaad3c8</sys_scope><sys_update_name>sp_page_30ab94e6839a2210c53d9780deaad3b0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-25 13:37:47</sys_updated_on><title>Vehicle Hub Catalog Home</title><use_seo_script>false</use_seo_script></sp_page><sys_translated_text action="delete_multiple" query="documentkey=30ab94e6839a2210c53d9780deaad3b0"/></record_update>]]></payload>
+        <payload_hash>1082898471</payload_hash>
+        <record_name>vehiclehub_cat_home</record_name>
+        <reverted_from/>
+        <source>fb94fb6983122210c53d9780deaad399</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 13:37:47</sys_created_on>
+        <sys_id>3adb1c2a839a2210c53d9780deaad3a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197a74f16a30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 13:37:47</sys_updated_on>
+        <type>Page</type>
+        <update_guid>fedb1c2a749a22100e95204dd4b671a3</update_guid>
+        <update_guid_history>fedb1c2a749a22100e95204dd4b671a3:1082898471,70ab94e6349a2210dfa2400fb6c1d8b2:-251657954</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="vehiclehub_cat_home">013cd02a839a2210c53d9780deaad34c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 13:39:20</sys_created_on>
+        <sys_db_object display_value="" name="sp_page">sp_page</sys_db_object>
+        <sys_id>81bf07cfab9d4464bd09c3b4e81137e4</sys_id>
+        <sys_metadata>30ab94e6839a2210c53d9780deaad3b0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>vehiclehub_cat_home</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1540210_lva">60d3c13f83f56210c53d9780deaad3c8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">60d3c13f83f56210c53d9780deaad3c8</sys_scope>
+        <sys_scope_delete display_value="">920bb3565fdf4114a3d670336b48de90</sys_scope_delete>
+        <sys_update_name>sp_page_30ab94e6839a2210c53d9780deaad3b0</sys_update_name>
+        <sys_update_version display_value="sp_page_30ab94e6839a2210c53d9780deaad3b0">3adb1c2a839a2210c53d9780deaad3a4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 13:39:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

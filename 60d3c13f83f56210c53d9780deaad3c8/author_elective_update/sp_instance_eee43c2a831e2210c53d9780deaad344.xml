@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>empty</glyph>
+        <id>hero_banner</id>
+        <order>1</order>
+        <roles>public</roles>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">528777da83d62210c53d9780deaad3d3</sp_column>
+        <sp_widget display_value="Hero Banner - Vehicle Hub">0f143c2a831e2210c53d9780deaad337</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 15:27:16</sys_created_on>
+        <sys_id>eee43c2a831e2210c53d9780deaad344</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Hero Banner</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1540210_lva">60d3c13f83f56210c53d9780deaad3c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">60d3c13f83f56210c53d9780deaad3c8</sys_scope>
+        <sys_update_name>sp_instance_eee43c2a831e2210c53d9780deaad344</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 15:34:15</sys_updated_on>
+        <title>Hero Banner</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=eee43c2a831e2210c53d9780deaad344"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request and Inventory">60d3c13f83f56210c53d9780deaad3c8</application>
+        <file_path/>
+        <instance_id>c4236bc91b02821077c7cb7b234bcba6</instance_id>
+        <instance_name>dev264481</instance_name>
+        <name>sp_instance_eee43c2a831e2210c53d9780deaad344</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph>empty</glyph><id>hero_banner</id><order>1</order><roles>public</roles><short_description/><size>md</size><sp_column display_value="2">528777da83d62210c53d9780deaad3d3</sp_column><sp_widget display_value="Hero Banner - Vehicle Hub">0f143c2a831e2210c53d9780deaad337</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-25 15:27:16</sys_created_on><sys_id>eee43c2a831e2210c53d9780deaad344</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Hero Banner</sys_name><sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1540210_lva">60d3c13f83f56210c53d9780deaad3c8</sys_package><sys_policy/><sys_scope display_value="Loaner Vehicle Request and Inventory">60d3c13f83f56210c53d9780deaad3c8</sys_scope><sys_update_name>sp_instance_eee43c2a831e2210c53d9780deaad344</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-25 15:34:15</sys_updated_on><title>Hero Banner</title><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=eee43c2a831e2210c53d9780deaad344"/></record_update>]]></payload>
+        <payload_hash>-1445122330</payload_hash>
+        <record_name>Hero Banner</record_name>
+        <reverted_from/>
+        <source>fb94fb6983122210c53d9780deaad399</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 15:34:15</sys_created_on>
+        <sys_id>7886b8ea831e2210c53d9780deaad34b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197a7b9b6120000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 15:34:15</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>3086b8ea2e1e2210dc80801ca030534b</update_guid>
+        <update_guid_history>3086b8ea2e1e2210dc80801ca030534b:-1445122330,dc3634eaa81e2210418dba1ec0c72306:1335317793,e6e43c2a9f1e2210599488b700f97446:-566187572</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Hero Banner">4aed34e2835e2210c53d9780deaad3a2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 16:06:33</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>1d8b211b3c874b5e8f2966ad2885b191</sys_id>
+        <sys_metadata>eee43c2a831e2210c53d9780deaad344</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hero Banner</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1540210_lva">60d3c13f83f56210c53d9780deaad3c8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">60d3c13f83f56210c53d9780deaad3c8</sys_scope>
+        <sys_scope_delete display_value="">920bb3565fdf4114a3d670336b48de90</sys_scope_delete>
+        <sys_update_name>sp_instance_eee43c2a831e2210c53d9780deaad344</sys_update_name>
+        <sys_update_version display_value="sp_instance_eee43c2a831e2210c53d9780deaad344">7886b8ea831e2210c53d9780deaad34b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 16:06:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

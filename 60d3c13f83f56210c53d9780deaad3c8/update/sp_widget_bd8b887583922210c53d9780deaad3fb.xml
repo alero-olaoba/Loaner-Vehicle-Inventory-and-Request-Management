@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description>Displays a list of vehicles from the Loaner Vehicle Catalog.</description>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>loaner_vehicle_list</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Loaner Vehicle List</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+ data.vehicles = []; // Initialize an array to hold vehicle data
+
+    // Query the Loaner Vehicle Catalog table
+    var grVehicles = new GlideRecord('x_1540210_lva_loaner_vehicle_catalog');
+    grVehicles.query();
+
+    while (grVehicles.next()) {
+        data.vehicles.push({
+            sys_id: grVehicles.sys_id.toString(),
+            number: grVehicles.number.toString(), // Fetching the 'Number' field
+            status: grVehicles.status ? grVehicles.status.getDisplayValue() : 'N/A', // Get display value for 'status'
+            vehicle_description: grVehicles.vehicle_description ? grVehicles.vehicle_description.toString() : 'N/A', // Fetching 'vehicle_description'
+            vehicle_make: grVehicles.vehicle_make ? grVehicles.vehicle_make.toString() : 'N/A', // Fetching 'vehicle_make'
+            vehicle_model: grVehicles.vehicle_model ? grVehicles.vehicle_model.toString() : 'N/A', // Fetching 'vehicle_model'
+            vehicle_year: grVehicles.vehicle_year ? grVehicles.vehicle_year.toString() : 'N/A' // Fetching 'vehicle_year'
+            // Image field is omitted for direct display in the table, but its URL could be fetched if needed:
+            // image_url: grVehicles.image ? grVehicles.image.getDisplayValue() : ''
+        });
+    }
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-23 04:41:35</sys_created_on>
+        <sys_id>bd8b887583922210c53d9780deaad3fb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Loaner Vehicle List</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1540210_lva">60d3c13f83f56210c53d9780deaad3c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">60d3c13f83f56210c53d9780deaad3c8</sys_scope>
+        <sys_update_name>sp_widget_bd8b887583922210c53d9780deaad3fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-23 04:48:39</sys_updated_on>
+        <template><![CDATA[<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Vehicle Catalog</h3>
+  </div>
+  <div class="panel-body">
+    <div ng-if="data.vehicles.length == 0" class="text-center">
+      <p>No vehicles found in the catalog.</p>
+    </div>
+    <div ng-if="data.vehicles.length > 0">
+      <table class="table table-striped table-hover">
+        <thead>
+          <tr>
+            <th>Number</th>
+            <th>Make</th>
+            <th>Model</th>
+            <th>Year</th>
+            <th>Status</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="vehicle in data.vehicles">
+            <td>{{::vehicle.number}}</td>
+            <td>{{::vehicle.vehicle_make}}</td>
+            <td>{{::vehicle.vehicle_model}}</td>
+            <td>{{::vehicle.vehicle_year}}</td>
+            <td>
+              <span class="label"
+                ng-class="{
+                  'label-success': vehicle.status == 'Available',
+                  'label-warning': vehicle.status == 'Unavailable',
+                  'label-danger': vehicle.status == 'Decommissioned'
+                }">
+                {{::vehicle.status}}
+              </span>
+            </td>
+            <td>{{::vehicle.vehicle_description}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="panel-footer text-right">
+    <small>*Data fetched from Loaner Vehicle Catalog.</small>
+  </div>
+</div>]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>bd8b887583922210c53d9780deaad3fb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-23 04:41:34</sys_created_on>
+        <sys_id>30fd847583922210c53d9780deaad365</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-23 04:41:34</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="DELETE">
+        <category>sample</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <human_readable_url_structure/>
+        <id>copy_of_404_1</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>true</public>
+        <roles/>
+        <seo_script/>
+        <short_description>Display when we cannot find the requested page</short_description>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-23 03:32:12</sys_created_on>
+        <sys_id>2c1efbe183522210c53d9780deaad358</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>copy_of_404_1</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1540210_lva">60d3c13f83f56210c53d9780deaad3c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">60d3c13f83f56210c53d9780deaad3c8</sys_scope>
+        <sys_update_name>sp_page_2c1efbe183522210c53d9780deaad358</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-23 03:32:12</sys_updated_on>
+        <title>Copy of Not Found (1)</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="DELETE" query="documentkey=2c1efbe183522210c53d9780deaad358"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request and Inventory">60d3c13f83f56210c53d9780deaad3c8</application>
+        <file_path/>
+        <instance_id>c4236bc91b02821077c7cb7b234bcba6</instance_id>
+        <instance_name>dev264481</instance_name>
+        <name>sp_page_2c1efbe183522210c53d9780deaad358</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>sample</category><css/><draft>false</draft><dynamic_title_structure/><human_readable_url_structure/><id>copy_of_404_1</id><internal>false</internal><omit_watcher>false</omit_watcher><public>true</public><roles/><seo_script/><short_description>Display when we cannot find the requested page</short_description><sys_class_name>sp_page</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-23 03:32:12</sys_created_on><sys_id>2c1efbe183522210c53d9780deaad358</sys_id><sys_mod_count>0</sys_mod_count><sys_name>copy_of_404_1</sys_name><sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1540210_lva">60d3c13f83f56210c53d9780deaad3c8</sys_package><sys_policy/><sys_scope display_value="Loaner Vehicle Request and Inventory">60d3c13f83f56210c53d9780deaad3c8</sys_scope><sys_update_name>sp_page_2c1efbe183522210c53d9780deaad358</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-23 03:32:12</sys_updated_on><title>Copy of Not Found (1)</title><use_seo_script>false</use_seo_script></sp_page><sys_translated_text action="delete_multiple" query="documentkey=2c1efbe183522210c53d9780deaad358"/></record_update>]]></payload>
+        <payload_hash>-269237165</payload_hash>
+        <record_name>copy_of_404_1</record_name>
+        <reverted_from/>
+        <source>fb94fb6983122210c53d9780deaad399</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-23 03:32:12</sys_created_on>
+        <sys_id>241e336583522210c53d9780deaad3b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1979ad7f0840000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-23 03:32:12</sys_updated_on>
+        <type>Page</type>
+        <update_guid>e41efbe11f522210c9789956178cf75b</update_guid>
+        <update_guid_history>e41efbe11f522210c9789956178cf75b:-269237165</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="copy_of_404_1">573e376583522210c53d9780deaad323</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-23 03:32:57</sys_created_on>
+        <sys_db_object display_value="" name="sp_page">sp_page</sys_db_object>
+        <sys_id>0ba276924b4346a0a1acd04d575a4f64</sys_id>
+        <sys_metadata>2c1efbe183522210c53d9780deaad358</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>copy_of_404_1</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1540210_lva">60d3c13f83f56210c53d9780deaad3c8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">60d3c13f83f56210c53d9780deaad3c8</sys_scope>
+        <sys_scope_delete display_value="">920bb3565fdf4114a3d670336b48de90</sys_scope_delete>
+        <sys_update_name>sp_page_2c1efbe183522210c53d9780deaad358</sys_update_name>
+        <sys_update_version display_value="sp_page_2c1efbe183522210c53d9780deaad358">241e336583522210c53d9780deaad3b0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-23 03:32:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

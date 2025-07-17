@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_visibility">
+    <par_dashboard_visibility action="INSERT_OR_UPDATE">
+        <dashboard display_value="Loaner Vehicle Catalog Task">d652606283da2210c53d9780deaad3c1</dashboard>
+        <experience display_value="Platform Analytics">08c73d60537101100834ddeeff7b1287</experience>
+        <sys_class_name>par_dashboard_visibility</sys_class_name>
+        <sys_created_by>alfonso.griglen</sys_created_by>
+        <sys_created_on>2025-06-25 14:06:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1652a86283da2210c53d9780deaad359</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1540210_lva">60d3c13f83f56210c53d9780deaad3c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">60d3c13f83f56210c53d9780deaad3c8</sys_scope>
+        <sys_update_name>par_dashboard_visibility_1652a86283da2210c53d9780deaad359</sys_update_name>
+        <sys_updated_by>alfonso.griglen</sys_updated_by>
+        <sys_updated_on>2025-06-25 14:06:09</sys_updated_on>
+    </par_dashboard_visibility>
+</record_update>

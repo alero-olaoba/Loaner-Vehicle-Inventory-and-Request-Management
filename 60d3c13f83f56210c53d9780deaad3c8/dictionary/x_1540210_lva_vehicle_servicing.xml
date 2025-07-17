@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="cff5577c8346a210c53d9780deaad368" label="Vehicle Servicing" max_length="40" name="x_1540210_lva_vehicle_servicing" type="collection">
+        <element label="Date sent for Servicing" mandatory="true" max_length="40" name="date_sent_for_servicing" type="glide_date"/>
+        <element choice="1" label="Vehicle Status" mandatory="true" max_length="40" name="vehicle_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Returned to Warehouse" sequence="20" value="returned_to_warehouse"/>
+                <element inactive_on_update="false" label="Decommissioned" sequence="30" value="decommissioned"/>
+                <element inactive_on_update="false" label="In Service" sequence="10" value="in_service"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Ticket Status" mandatory="true" max_length="40" name="ticket_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Canceled" sequence="30" value="canceled"/>
+                <element inactive_on_update="false" label="Open" sequence="10" value="open"/>
+                <element inactive_on_update="false" label="Closed" sequence="20" value="closed"/>
+            </choice>
+        </element>
+        <element label=" Vehicle Issues" mandatory="true" max_length="1000" name="vehicle_issues" type="string"/>
+        <element label="Work Performed" max_length="1000" name="work_performed" type="string"/>
+        <element label="Vehicle Tracker" mandatory="true" max_length="32" name="vehicle_tracker" reference="x_1540210_lva_vehicle_tracker" type="reference"/>
+        <element label="Vehicle" mandatory="true" max_length="32" name="vehicle_reference" reference="x_1540210_lva_loaner_vehicle_catalog" type="reference"/>
+        <index name="index">
+            <element name="vehicle_reference"/>
+        </index>
+        <index name="index2">
+            <element name="vehicle_tracker"/>
+        </index>
+    </element>
+</database>
